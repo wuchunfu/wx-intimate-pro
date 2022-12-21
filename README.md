@@ -74,7 +74,7 @@ node 版本 >16
 
 ```shell
 
-docker pull 17783042962/wx-intimate:latest
+docker pull registry.cn-chengdu.aliyuncs.com/lizhounet/wx-intimate:1.0
 
 ```
 
