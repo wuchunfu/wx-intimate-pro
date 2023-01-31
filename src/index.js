@@ -5,11 +5,11 @@ const onLogin = require('./handers/on-login')
 const onScan = require('./handers/on-scan')
 const onReady = require('./handers/on-ready')
 const { addPlatformDbConfig } = require('./common/platformDb')
-
 const { WechatyBuilder, log } = Wechaty;
 
+
 // 服务器host 默认
-let platformHostUrl = 'http://47.108.190.69:9901/api/public/wx-client';
+let platformHostUrl = 'https://wxbot.zhouli.info/api/public/wx-client';
 let applictionToken = '';
 const initConfig = {
     PLATFORM_HOST_URL: process.env['PLATFORM_HOST_URL'] || platformHostUrl,
